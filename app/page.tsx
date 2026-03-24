@@ -18,7 +18,7 @@ export default async function HomePage() {
     return (
         <>
             <h1>Cat Breeds</h1>
-            <p style={{ textAlign: "center" }}>{ breeds.length} breeds from The Cat API</p>
+            <p style={{ textAlign: "center" }}>{ breeds.length} breeds returned from The Cat API With Private Key</p>
             <div className="breeds-list">
                 {breeds.map((breed) => (
                     <Link key={breed.id} href={`/breeds/${breed.id}`} className="breed-card">

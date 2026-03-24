@@ -37,6 +37,7 @@ h2 {
 
 .breed-card:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    background-color:rgb(184, 156, 119);
 }
 
 .breed-detail {
