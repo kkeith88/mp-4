@@ -10,7 +10,7 @@ export default async function HomePage() {
         return (
             <div className="error-page">
                 <h1>Unable to load breeds</h1>
-                <p>The Cat API may be down or your daily limit has been reached. Please try again later.</p>
+                <p>The Cat API may be down</p>
             </div>
         );
     }

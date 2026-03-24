@@ -11,7 +11,7 @@ export default async function BreedPage({ params }: Readonly<{ params: Promise<{
         return (
             <div className="error-page">
                 <h1>Breed not found</h1>
-                <p>We couldn't load this breed. The API may be down or your daily limit has been reached.</p>
+                <p>We couldn't load this breed.</p>
                 <Link href="/">← Back to all breeds</Link>
             </div>
         );
